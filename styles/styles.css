@@ -124,4 +124,13 @@ footer{
     margin-left: auto;
 }
 
+.table-stats{
+    padding: 20px;
+    text-align: center;
+    background-color: #FC87BE;
+}
 
+table{
+    color: black;
+    border: 1px solid black;
+}
