@@ -1,0 +1,110 @@
+    /* |||HEADER||| */
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #FC87BE ;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 10px black solid; 
+}
+
+.logoamaze{
+    max-width: 160px;
+    height: 50px;
+    align-self: flex-start;
+}
+
+
+.h5-nav{
+    justify-content: flex-end;
+    margin-left: 50px;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+a:link, a:visited,  a:hover, a:active{
+    color: #000000;
+    text-decoration: none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+
+.carousel{
+    padding: 25px;
+    border-bottom: 10px black solid;
+    align-items: center;
+    text-align: center;
+    background-color: #FC87BE;
+    box-sizing: 100%;
+}
+
+/* MAIN */
+
+.check{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: #FC87BE;
+    padding: 20px;
+    border-bottom: 10px black solid;
+}
+
+.form-check{
+    margin: 15px;
+    
+}
+
+.searcher{
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+        /* CARDS */
+
+.cardbody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 93px;
+    background-color: #FC87BE;
+}
+
+.card{
+    margin-right: 60px;
+    padding: 24px;
+    text-align: justify;
+
+}
+
+.card-img-top{
+    max-width: 270px;
+    max-height: 150px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FC87BE;
+    padding: 15px;
+}
+
+.icons{
+    font-size: 35px;
+    margin-right: auto;
+}
+
+.bi{
+    margin-left: 15px;
+}
+
+.footer-text{
+    font-size: 20px;
+    margin-left: auto;
+}
+
+

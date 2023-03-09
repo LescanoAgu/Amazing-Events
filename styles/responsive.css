@@ -1,0 +1,43 @@
+@media screen and (max-width: 1280px){
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 7rem;
+        text-align: center;
+    }
+
+    .cardbody{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 7rem;
+    }
+
+    .card{
+        margin: 25px;
+    }
+
+    .carousel{
+        width: 100%;
+    }
+
+    .check{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 7rem;
+        margin: 15px ;
+    }
+
+    .searcher{
+        margin-top: 15px;
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 7rem;
+    }
+}
