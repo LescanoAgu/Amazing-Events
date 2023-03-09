@@ -60,6 +60,9 @@ a:link, a:visited,  a:hover, a:active{
 .searcher{
     align-items: flex-end;
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+   text-align: center;
 }
 
         /* CARDS */
@@ -80,10 +83,24 @@ a:link, a:visited,  a:hover, a:active{
 
 }
 
+.form-contact{
+    background-color: #FC87BE;
+    padding: 50px;
+}
+
 .card-img-top{
     max-width: 270px;
     max-height: 150px;
 }
+
+.main-cards{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #FC87BE;
+    padding: 40px;
+}
+
 
 footer{
     display: flex;

@@ -40,4 +40,10 @@
         flex-direction: column;
         padding: 7rem;
     }
+
+    .main-cards{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
